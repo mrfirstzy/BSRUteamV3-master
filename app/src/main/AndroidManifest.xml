@@ -41,7 +41,8 @@
 
         <activity
             android:name=".ServiceActivity"
-            android:label="@string/title_activity_service"></activity>
+            android:label="@string/title_activity_service" />
+        <activity android:name=".ListFriend"></activity>
     </application>
 
 </manifest>

@@ -13,6 +13,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity { // main calss <
+
     // ประกาศตัวแปล
     private Button SingInButton, SingUpButton;
     private EditText UserEditText, PassEditText;

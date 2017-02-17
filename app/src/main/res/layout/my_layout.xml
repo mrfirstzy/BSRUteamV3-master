@@ -33,14 +33,14 @@
         android:layout_marginTop="13dp"
         android:layout_below="@+id/linTopService"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/lisV"
         android:layout_margin="15dp" />
 
     <Button
         android:text="List Friend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/lisV"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
