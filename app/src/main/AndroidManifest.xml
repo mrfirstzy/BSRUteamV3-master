@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="team.bsru.apirat.bsruteam">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!--
@@ -42,7 +43,8 @@
         <activity
             android:name=".ServiceActivity"
             android:label="@string/title_activity_service" />
-        <activity android:name=".ListFriend"></activity>
+        <activity android:name=".ListFriend" />
+        <activity android:name=".Detail_Friend"></activity>
     </application>
 
 </manifest>
